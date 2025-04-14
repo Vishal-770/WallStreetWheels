@@ -40,7 +40,7 @@ const CarDetail = () => {
           {/* Image Section */}
           <div className="relative">
             <img
-              src={`../public/${car.imageUrl}`}
+              src={`/${car.imageUrl}`}
               alt={`${car.make} ${car.model}`}
               className="w-full h-auto rounded-lg object-cover"
             />

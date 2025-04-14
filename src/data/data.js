@@ -10,7 +10,8 @@ const luxuryCars = [
     transmission: "7-Speed DCT",
     drivetrain: "RWD",
     imageUrl: "2016 Ferrari California T.jpg",
-    description: "The Ferrari California T combines stunning design with a turbocharged V8 engine, offering exhilarating performance with the comfort of a grand tourer. Its retractable hardtop transforms it from coupe to convertible in just 14 seconds."
+    description:
+      "The Ferrari California T combines stunning design with a turbocharged V8 engine, offering exhilarating performance with the comfort of a grand tourer. Its retractable hardtop transforms it from coupe to convertible in just 14 seconds.",
   },
   {
     id: 2,
@@ -23,7 +24,8 @@ const luxuryCars = [
     transmission: "8-Speed Automatic",
     drivetrain: "RWD",
     imageUrl: "Alfa Romeo Giulia Quadrifoglio QV.jpg",
-    description: "The Alfa Romeo Giulia Quadrifoglio is a high-performance sedan with Formula 1-inspired technology, featuring a carbon fiber driveshaft and a twin-turbo V6 that delivers thrilling acceleration and razor-sharp handling."
+    description:
+      "The Alfa Romeo Giulia Quadrifoglio is a high-performance sedan with Formula 1-inspired technology, featuring a carbon fiber driveshaft and a twin-turbo V6 that delivers thrilling acceleration and razor-sharp handling.",
   },
   {
     id: 3,
@@ -36,7 +38,8 @@ const luxuryCars = [
     transmission: "8-Speed Automatic",
     drivetrain: "RWD",
     imageUrl: "astonMartinV8Vantage.jpg",
-    description: "The Aston Martin V8 Vantage combines breathtaking design with formidable performance. Its hand-built 4.0L twin-turbo V8 produces a glorious exhaust note while delivering precise handling and luxurious comfort."
+    description:
+      "The Aston Martin V8 Vantage combines breathtaking design with formidable performance. Its hand-built 4.0L twin-turbo V8 produces a glorious exhaust note while delivering precise handling and luxurious comfort.",
   },
   {
     id: 4,
@@ -49,7 +52,8 @@ const luxuryCars = [
     transmission: "6-Speed Sequential",
     drivetrain: "AWD",
     imageUrl: "Audi R8 LMS GT - Copy.jpg",
-    description: "The track-focused Audi R8 LMS GT is a race-bred machine derived from the road-going R8. With a naturally aspirated V10, full aerodynamics package, and stripped-out interior, it's built for pure performance."
+    description:
+      "The track-focused Audi R8 LMS GT is a race-bred machine derived from the road-going R8. With a naturally aspirated V10, full aerodynamics package, and stripped-out interior, it's built for pure performance.",
   },
   {
     id: 5,
@@ -62,7 +66,8 @@ const luxuryCars = [
     transmission: "8-Speed Tiptronic",
     drivetrain: "AWD",
     imageUrl: "Audi RS5.jpg",
-    description: "The Audi RS5 Sportback combines everyday practicality with sports car performance. Its turbocharged V6 and Quattro all-wheel drive provide all-weather capability with 0-60 mph in under 4 seconds."
+    description:
+      "The Audi RS5 Sportback combines everyday practicality with sports car performance. Its turbocharged V6 and Quattro all-wheel drive provide all-weather capability with 0-60 mph in under 4 seconds.",
   },
   {
     id: 6,
@@ -75,7 +80,8 @@ const luxuryCars = [
     transmission: "8-Speed DCT",
     drivetrain: "AWD",
     imageUrl: "Bentley Continental GT.jpg",
-    description: "The Bentley Continental GT redefines grand touring with handcrafted luxury and a 4.0L twin-turbo V8. Its sumptuous interior features diamond-quilted leather and cutting-edge technology for the ultimate in comfort."
+    description:
+      "The Bentley Continental GT redefines grand touring with handcrafted luxury and a 4.0L twin-turbo V8. Its sumptuous interior features diamond-quilted leather and cutting-edge technology for the ultimate in comfort.",
   },
   {
     id: 7,
@@ -88,7 +94,8 @@ const luxuryCars = [
     transmission: "5-Speed Manual",
     drivetrain: "RWD",
     imageUrl: "BMW m1 - Copy.png",
-    description: "The legendary BMW M1 was BMW's first mid-engined sports car and remains a highly collectible classic. Designed by Giorgetto Giugiaro, it features a 3.5L inline-6 developed with Lamborghini and only 453 were produced."
+    description:
+      "The legendary BMW M1 was BMW's first mid-engined sports car and remains a highly collectible classic. Designed by Giorgetto Giugiaro, it features a 3.5L inline-6 developed with Lamborghini and only 453 were produced.",
   },
   {
     id: 8,
@@ -101,7 +108,8 @@ const luxuryCars = [
     transmission: "5-Speed Manual",
     drivetrain: "RWD",
     imageUrl: "BMW m3 classic.jpg",
-    description: "The iconic E30-generation BMW M3 is one of the most revered sports sedans ever made. Its high-revving 2.3L inline-4 and balanced chassis made it dominant in touring car racing while remaining practical for daily use."
+    description:
+      "The iconic E30-generation BMW M3 is one of the most revered sports sedans ever made. Its high-revving 2.3L inline-4 and balanced chassis made it dominant in touring car racing while remaining practical for daily use.",
   },
   {
     id: 9,
@@ -114,7 +122,8 @@ const luxuryCars = [
     transmission: "8-Speed Automatic",
     drivetrain: "AWD",
     imageUrl: "BMW M8.jpeg",
-    description: "The BMW M8 Competition is the pinnacle of BMW's performance lineup, combining a twin-turbo V8 with luxurious appointments. With all-wheel drive and rear-wheel steering, it offers both comfort and track-ready performance."
+    description:
+      "The BMW M8 Competition is the pinnacle of BMW's performance lineup, combining a twin-turbo V8 with luxurious appointments. With all-wheel drive and rear-wheel steering, it offers both comfort and track-ready performance.",
   },
   {
     id: 10,
@@ -127,7 +136,8 @@ const luxuryCars = [
     transmission: "7-Speed DCT",
     drivetrain: "AWD",
     imageUrl: "Bugatti Chiron.jpeg",
-    description: "The Bugatti Chiron represents the absolute peak of automotive engineering, with a quad-turbo W16 engine producing 1,500 HP. Limited to 261 mph (electronically limited), it's one of the fastest production cars ever made."
+    description:
+      "The Bugatti Chiron represents the absolute peak of automotive engineering, with a quad-turbo W16 engine producing 1,500 HP. Limited to 261 mph (electronically limited), it's one of the fastest production cars ever made.",
   },
   {
     id: 11,
@@ -140,7 +150,8 @@ const luxuryCars = [
     transmission: "8-Speed Automatic",
     drivetrain: "RWD",
     imageUrl: "Doge  challanger.jpg",
-    description: "The Dodge Challenger SRT Hellcat is an American muscle car icon, featuring a supercharged 6.2L HEMI V8. With retro styling and modern performance, it delivers tire-shredding power with classic Detroit attitude."
+    description:
+      "The Dodge Challenger SRT Hellcat is an American muscle car icon, featuring a supercharged 6.2L HEMI V8. With retro styling and modern performance, it delivers tire-shredding power with classic Detroit attitude.",
   },
   {
     id: 12,
@@ -153,7 +164,8 @@ const luxuryCars = [
     transmission: "7-Speed DCT",
     drivetrain: "RWD",
     imageUrl: "McLaren 720S.jpg",
-    description: "The McLaren 720S is a technological tour de force with a carbon fiber monocoque and a twin-turbo V8 producing 710 HP. Its dihedral doors and futuristic design conceal one of the most capable supercars on the market."
+    description:
+      "The McLaren 720S is a technological tour de force with a carbon fiber monocoque and a twin-turbo V8 producing 710 HP. Its dihedral doors and futuristic design conceal one of the most capable supercars on the market.",
   },
   {
     id: 13,
@@ -166,7 +178,8 @@ const luxuryCars = [
     transmission: "9-Speed Automatic",
     drivetrain: "AWD",
     imageUrl: "Mercedes-Benz SL 63 AMG.webp",
-    description: "The Mercedes-AMG SL 63 combines open-top motoring with serious performance. Its 4.0L twin-turbo V8 and retractable hardtop make it equally suited for coastal cruises and autobahn blasts, all wrapped in exquisite luxury."
+    description:
+      "The Mercedes-AMG SL 63 combines open-top motoring with serious performance. Its 4.0L twin-turbo V8 and retractable hardtop make it equally suited for coastal cruises and autobahn blasts, all wrapped in exquisite luxury.",
   },
   {
     id: 14,
@@ -179,7 +192,8 @@ const luxuryCars = [
     transmission: "8-Speed DCT",
     drivetrain: "AWD",
     imageUrl: "Porsche 911 Turbo S.jpeg",
-    description: "The Porsche 911 Turbo S is the ultimate expression of the 911 lineage, with a twin-turbo flat-6 engine and advanced all-wheel drive. Its combination of daily usability and supercar performance is unmatched."
+    description:
+      "The Porsche 911 Turbo S is the ultimate expression of the 911 lineage, with a twin-turbo flat-6 engine and advanced all-wheel drive. Its combination of daily usability and supercar performance is unmatched.",
   },
   {
     id: 15,
@@ -192,7 +206,8 @@ const luxuryCars = [
     transmission: "7-Speed DCT",
     drivetrain: "AWD",
     imageUrl: "Porsche918Spyder.webp",
-    description: "The Porsche 918 Spyder is a hybrid hypercar that combines a 4.6L V8 with electric motors for a total of 887 HP. One of the holy trinity hypercars, it set records at the Nürburgring and remains technologically groundbreaking."
+    description:
+      "The Porsche 918 Spyder is a hybrid hypercar that combines a 4.6L V8 with electric motors for a total of 887 HP. One of the holy trinity hypercars, it set records at the Nürburgring and remains technologically groundbreaking.",
   },
   {
     id: 16,
@@ -205,7 +220,8 @@ const luxuryCars = [
     transmission: "8-Speed Automatic",
     drivetrain: "AWD",
     imageUrl: "RollysRoyceGhost.jpg",
-    description: "The Rolls-Royce Ghost represents the pinnacle of automotive luxury, with whisper-quiet operation and handcrafted details throughout. Its 6.75L twin-turbo V12 delivers effortless power while maintaining absolute serenity."
+    description:
+      "The Rolls-Royce Ghost represents the pinnacle of automotive luxury, with whisper-quiet operation and handcrafted details throughout. Its 6.75L twin-turbo V12 delivers effortless power while maintaining absolute serenity.",
   },
   {
     id: 17,
@@ -218,8 +234,107 @@ const luxuryCars = [
     transmission: "8-Speed Automatic",
     drivetrain: "RWD",
     imageUrl: "Toyata Supra.jpg",
-    description: "The Toyota Supra marks the return of an icon, developed in partnership with BMW. Its turbocharged inline-6 and rear-wheel drive chassis deliver pure driving pleasure, wrapped in dramatic styling that honors its heritage."
-  }
+    description:
+      "The Toyota Supra marks the return of an icon, developed in partnership with BMW. Its turbocharged inline-6 and rear-wheel drive chassis deliver pure driving pleasure, wrapped in dramatic styling that honors its heritage.",
+  },
+  {
+    id: 18,
+    make: "Mercedes-Benz",
+    model: "G-Class AMG G63",
+    year: 2023,
+    price: 179000,
+    horsepower: 577,
+    acceleration: 4.5,
+    transmission: "9-Speed Automatic",
+    drivetrain: "AWD",
+    imageUrl: "Mercedes G63 AMG.jpg",
+    description:
+      "The Mercedes-Benz G-Wagon AMG G63 blends iconic boxy design with extreme off-road capability and luxury. Its hand-built V8 engine and rugged construction are matched by a plush, tech-rich cabin.",
+  },
+  {
+    id: 19,
+    make: "McLaren",
+    model: "P1",
+    year: 2015,
+    price: 1150000,
+    horsepower: 903,
+    acceleration: 2.8,
+    transmission: "7-Speed Dual-Clutch",
+    drivetrain: "RWD",
+    imageUrl: "McLaren P1.jpg",
+    description:
+      "The McLaren P1 is a plug-in hybrid hypercar that redefines performance and innovation. With Formula 1-derived technology and active aerodynamics, it delivers blistering speed and track-level handling.",
+  },
+  {
+    id: 20,
+    make: "Ferrari",
+    model: "LaFerrari",
+    year: 2015,
+    price: 1400000,
+    horsepower: 950,
+    acceleration: 2.6,
+    transmission: "7-Speed Dual-Clutch",
+    drivetrain: "RWD",
+    imageUrl: "LaFerrari.jpg",
+    description:
+      "LaFerrari is Ferrari’s ultimate expression of performance, design, and hybrid technology. Featuring a V12 paired with an electric motor, it’s a marvel of Italian engineering with breathtaking aesthetics and speed.",
+  },
+  {
+    id: 21,
+    make: "Bentley",
+    model: "Flying Spur Speed",
+    year: 2023,
+    price: 260000,
+    horsepower: 626,
+    acceleration: 3.7,
+    transmission: "8-Speed Dual-Clutch",
+    drivetrain: "AWD",
+    imageUrl: "Bentley Flying Spur Speed.jpg",
+    description:
+      "The Bentley Flying Spur Speed is a blend of opulence and dynamic power. With its twin-turbo W12 engine, exquisite materials, and state-of-the-art tech, it redefines what a performance luxury sedan can be.",
+  },
+  {
+    id: 22,
+    make: "Toyota",
+    model: "GR Yaris",
+    year: 2023,
+    price: 45000,
+    horsepower: 268,
+    acceleration: 5.2,
+    transmission: "6-Speed Manual",
+    drivetrain: "AWD",
+    imageUrl: "Toyota GR Yaris.jpg",
+    description:
+      "The Toyota GR Yaris is a rally-inspired hot hatch that defies expectations. Lightweight, agile, and aggressively tuned, it’s built for pure enthusiast driving and real-world performance.",
+  },
+  {
+    id: 23,
+    make: "Rolls-Royce",
+    model: "Phantom",
+    year: 2023,
+    price: 460000,
+    horsepower: 563,
+    acceleration: 5.1,
+    transmission: "8-Speed Automatic",
+    drivetrain: "RWD",
+    imageUrl: "Rolls Royce Phantom.jpg",
+    description:
+      "The Rolls-Royce Phantom is the epitome of luxury motoring. With a whisper-quiet V12 and a handcrafted interior, it provides an unparalleled sense of presence and serenity on the road.",
+  },
+  {
+    id: 24,
+    make: "Aston Martin",
+    model: "DB11 V8",
+    year: 2023,
+    price: 220000,
+    horsepower: 528,
+    acceleration: 4.0,
+    transmission: "8-Speed Automatic",
+    drivetrain: "RWD",
+    imageUrl: "Aston Martin DB11.jpg",
+    description:
+      "The Aston Martin DB11 V8 combines British elegance with raw athleticism. Powered by a twin-turbo V8, it offers a thrilling yet refined grand touring experience worthy of the marque's legacy.",
+  },
 ];
 
 export default luxuryCars;

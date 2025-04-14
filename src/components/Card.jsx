@@ -14,7 +14,7 @@ const Card = ({ car }) => {
         {" "}
         {/* Fixed height for images */}
         <img
-          src={car.imageUrl}
+          src={`/${car.imageUrl}`}
           alt={car.model}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
           style={{ minHeight: "100%", minWidth: "100%" }} // Ensures full coverage
