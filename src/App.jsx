@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import AppLayout from "./layout/AppLayout";
 import CarPage from "./pages/CarPage";
 import CarDetail from "./pages/CarDetail";
+import ErrorPage from "./pages/ErrorPage";
 function App() {
   const router = createBrowserRouter([
     {
@@ -30,7 +31,11 @@ function App() {
         },
         {
           path: "/cars/:id",
-          element: <CarDetail/>,
+          element: <CarDetail />,
+        },
+        {
+          path: "*",
+          element: <ErrorPage />,
         },
       ],
     },
