@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import luxuryCars from '../data/data';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -86,6 +87,15 @@ const Home = () => {
 
   return (
     <div className="bg-black text-white overflow-x-hidden">
+      {/* SEO Meta Tags */}
+      <Helmet>
+        <title>Premium Supercars in Chennai | Luxury BMW, Audi, Porsche Dealership</title>
+        <meta name="description" content="Wall Street Wheels offers exclusive luxury cars in Chennai including BMW, Audi, Porsche, Mercedes & Bugatti. Browse new and used supercars collection." />
+        <meta name="keywords" content="supercars in Chennai, luxury cars Chennai, BMW, Audi, Porsche, Mercedes, Bugatti, used supercars, new supercars, premium cars Chennai" />
+        <meta property="og:title" content="Premium Supercars in Chennai | Luxury Car Collection" />
+        <meta property="og:description" content="Exclusive collection of luxury cars in Chennai including BMW, Audi, Porsche, Mercedes and Bugatti supercars." />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
@@ -109,15 +119,15 @@ const Home = () => {
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
             variants={itemVariants}
           >
-            WALL STREET WHEELS
+            Premium Supercars in Chennai | Luxury Car Collection
           </motion.h1>
           
-          <motion.p 
+          <motion.h2 
             className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-300"
             variants={itemVariants}
           >
-            Curating the world's finest automotive masterpieces
-          </motion.p>
+            Exclusive BMW, Audi, Porsche, Mercedes & Bugatti - New & Used Supercars
+          </motion.h2>
           
           <motion.div variants={itemVariants}>
             <button
@@ -143,7 +153,7 @@ const Home = () => {
             className="text-3xl md:text-4xl font-bold mb-12 text-center"
             variants={itemVariants}
           >
-            Featured Investments
+            Luxury Supercars in Chennai - BMW, Audi, Porsche & More
           </motion.h2>
           
           <motion.div 
@@ -161,7 +171,7 @@ const Home = () => {
                 <div className="h-64 overflow-hidden relative">
                   <img
                     src={car.imageUrl}
-                    alt={`${car.make} ${car.model}`}
+                    alt={`${car.make} ${car.model} luxury car in Chennai`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -193,14 +203,13 @@ const Home = () => {
             >
               <div className="relative group">
                 <video
-                 autoPlay
-                 loop
-                 muted
-                 playsInline
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   src="bgvideo1.mp4"
-                  alt="Luxury Car"
+                  alt="Luxury cars in Chennai showroom"
                   className="w-full h-auto rounded-lg transform group-hover:scale-105 transition-transform duration-500"
-                  play
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
               </div>
@@ -210,7 +219,7 @@ const Home = () => {
               variants={slideInRight}
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Automotive Excellence
+                Chennai's Premier Luxury Car Dealership
               </h2>
               <p className="text-gray-300 mb-6">
                 Wall Street Wheels specializes in connecting discerning collectors with the world's most exceptional vehicles. Each car in our collection represents the pinnacle of engineering, design, and performance.
@@ -260,7 +269,7 @@ const Home = () => {
             className="text-3xl md:text-4xl font-bold mb-12 text-center"
             variants={itemVariants}
           >
-            Collections
+            Luxury Car Collections - New & Used Supercars
           </motion.h2>
           
           <motion.div 
@@ -304,14 +313,11 @@ const Home = () => {
             className="text-3xl md:text-4xl font-bold mb-6"
             variants={itemVariants}
           >
-            Begin Your Collection
+            Own a BMW, Audi or Porsche in Chennai Today
           </motion.h2>
-          <motion.p 
-            className="text-gray-300 mb-8"
-            variants={itemVariants}
-          >
+          <p className="text-gray-300 mb-8">
             Contact our specialists to discuss your automotive investment goals and acquisition requirements.
-          </motion.p>
+          </p>
           <motion.div 
             className="flex flex-col sm:flex-row justify-center gap-4"
             variants={containerVariants}
